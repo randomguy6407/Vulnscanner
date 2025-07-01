@@ -264,7 +264,7 @@ async def crawl_urls(url, max_depth=5):
     return found_urls
 
 # ---------- paths -------------------------------------------------
-VEC_PATH = Path(__file__).parent / "config" / "config.json"
+VEC_PATH = Path(__file__).parent.parent / "config" / "config.json"
 VEC_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # ---------- defaults ---------------------------------------------
