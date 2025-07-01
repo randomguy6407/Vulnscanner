@@ -1,0 +1,11 @@
+{
+  "web_protocol": true,
+  "return_server_info": true,
+  "xss": true,
+  "js_vulns": true,
+  "lfi": true,
+  "blind_lfi": true,
+  "crawl": true,
+  "sqli": true,
+  "ssti": true
+}
