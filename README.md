@@ -41,7 +41,7 @@ playwright install
 python3 main.py
 ```
 
-# 💻 Setup VIA pip package (https://pypi.org/project/Web-Vulnscanner/0.1.0/) :
+# 💻 Setup VIA pip package (https://pypi.org/project/Web-Vulnscanner) :
 ```bash
 pip install Web-Vulnscanner
 playwright install
