@@ -32,11 +32,18 @@
  - Extra Positional arguments (ie: allowing users to add specific fields like JWTs)
  - Possibly reading source code for common vulnerabilities in code (unlikely due to the amount of edge cases)
 
-# 💻 Setup:
+# 💻 Setup VIA git clone:
 ```bash
 git clone https://github.com/randomguy6407/Vulnscanner.git
 cd Vulnscanner
 pip install -r requirements.txt
+playwright install
+python3 main.py
+```
+
+# 💻 Setup VIA (pip package)[https://pypi.org/project/Web-Vulnscanner/0.1.0/] :
+```bash
+pip install Web-Vulnscanner
 playwright install
 python3 main.py
 ```
